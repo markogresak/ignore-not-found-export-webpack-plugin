@@ -1,6 +1,6 @@
 {
   "name": "ignore-not-found-export-webpack-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ignore webpack export not found warnings",
   "license": "MIT",
   "repository": "markogresak/ignore-not-found-export-webpack-plugin",
