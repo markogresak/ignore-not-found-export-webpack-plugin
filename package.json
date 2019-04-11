@@ -1,0 +1,29 @@
+{
+  "name": "ignore-not-found-export-webpack-plugin",
+  "version": "0.0.0",
+  "description": "Ignore webpack export not found warnings",
+  "license": "MIT",
+  "repository": "markogresak/ignore-not-found-export-webpack-plugin",
+  "author": "Marko Grešak <marko@gresak.io> (https://gresak.io)",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "webpack-plugin"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "webpack": "^4.29.6"
+  }
+}
