@@ -5,7 +5,13 @@
 ## Install
 
 ```
-$ npm install --save-dev ignore-not-found-export-webpack-plugin
+npm install --save-dev ignore-not-found-export-webpack-plugin
+```
+
+or
+
+```
+yard add --dev ignore-not-found-export-webpack-plugin
 ```
 
 ## Usage
