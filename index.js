@@ -23,6 +23,13 @@ module.exports = class IgnoreNotFoundExportPlugin {
     });
   }
 
+  isModuleDependencyWarning(warning) {
+    return (
+      warning instanceof ModuleDependencyWarning ||
+      warning.constructor.name === 'ModuleDependencyWarning'
+    );
+  }
+
   isResourcePathAllowed(resourcePath) {
     return this.include.some((regExp) => regExp.test(resourcePath));
   }
@@ -33,7 +40,7 @@ module.exports = class IgnoreNotFoundExportPlugin {
       stats.compilation.warnings = stats.compilation.warnings.filter(
         (warning) =>
           !(
-            warning instanceof ModuleDependencyWarning &&
+            this.isModuleDependencyWarning(warning) &&
             EXPORT_NOT_FOUND_REG_EXP.test(warning.message) &&
             this.isResourcePathAllowed(warning.module.resource)
           ),
