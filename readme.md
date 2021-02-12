@@ -1,4 +1,4 @@
-# IgnoreNotFoundExportPlugin ![Node.js CI](https://github.com/markogresak/ignore-not-found-export-webpack-plugin/workflows/Node.js%20CI/badge.svg)
+# IgnoreNotFoundExportPlugin ![Tests](https://github.com/markogresak/ignore-not-found-export-webpack-plugin/workflows/Tests/badge.svg)
 
 > Ignore webpack export not found warnings
 
