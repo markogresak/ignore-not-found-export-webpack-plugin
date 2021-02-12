@@ -1,4 +1,4 @@
-# IgnoreNotFoundExportPlugin [![Build Status](https://travis-ci.org/markogresak/ignore-not-found-export-webpack-plugin.svg?branch=master)](https://travis-ci.org/markogresak/ignore-not-found-export-webpack-plugin)
+# IgnoreNotFoundExportPlugin ![Tests](https://github.com/markogresak/ignore-not-found-export-webpack-plugin/workflows/Tests/badge.svg)
 
 > Ignore webpack export not found warnings
 
